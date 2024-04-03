@@ -379,6 +379,16 @@ a.logo-detail {
     animation: fadeInFromTop 1s forwards;
 }
 
+@media screen and (max-width: 700px) {
+    .image-index {
+        float: none;
+        margin: 10px;
+        width: 100%;
+        shape-outside: none;
+        shape-margin: 0;
+    }
+}
+
 .my-cards {
     display: flex;
     margin: auto;
@@ -447,6 +457,7 @@ a.logo-detail {
     .login-container {
         background-color: #2b2e31;
     }
+
     .text-important {
         color: #00D9A5;
     }
