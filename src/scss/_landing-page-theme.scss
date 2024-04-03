@@ -371,7 +371,74 @@ a.logo-detail {
     list-style: none;
     padding: 0;
 }
+
 .member {
     padding: 10px 0;
     border-bottom: 1px solid #eee;
+}
+
+
+.imagen-about {
+    float: left;
+    shape-outside: url('../img/anna.webp');
+    margin-right: 20px;
+    shape-image-threshold: 0.2;
+    width: 50%;
+    height: auto;
+    shape-margin: 20px;
+    animation: fadeInFromTop 1s forwards;
+}
+
+.image-index {
+    float: right;
+    shape-outside: url('../img/doctora.webp');
+    margin-right: 20px;
+    shape-image-threshold: 0.2;
+    width: 300px;
+    height: auto;
+    shape-margin: 20px;
+    animation: fadeInFromTop 1s forwards;
+}
+
+.my-cards {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards-news {
+    gap: 10px;
+}
+
+.animation-card {
+    width: 350px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+
+    &:hover {
+        transform: translateY(-15px);
+        box-shadow: 6px 5px 8px rgba(10, 40, 25, 0.3);
+    }
+}
+
+.cropped-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-img-top.doctors {
+    height: 300px;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: center top;
+}
+
+.card-img-top.specialties {
+    height: 150px;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: center top;
 }
