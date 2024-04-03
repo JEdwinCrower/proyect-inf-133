@@ -1,0 +1,19 @@
+Instalación de Node.js:
+	Descarga e instala Node.js desde el sitio web oficial (https://nodejs.org/).
+
+Configuración del Proyecto:
+	Navega hasta la carpeta raíz del proyecto "hospital-project".
+	Ejecuta el comando npm install dentro de la carpeta raíz y espera a que finalice el proceso.
+
+
+Para Ejecutar el Proyecto:
+	OPCIÓN 1: 
+		Dentro de la carpeta raíz, ejecuta el comando npm run build.
+		Una vez que la construcción haya finalizado, ejecuta el comando npm run preview.
+
+	OPCIÓN 2: 
+		Ejecuta el comando npm start dentro de la carpeta raíz del proyecto.
+
+
+Enlace del proyecto subido GITHUB PAGES
+https://jedwincrower.github.io/proyect-inf-133

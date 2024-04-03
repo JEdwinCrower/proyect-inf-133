@@ -1,0 +1,140 @@
+// Import all of Bootstrap's CSS
+// $primary: #084D68;
+// $secondary: #6c757d;
+// $success: #28a745;
+// $danger: #dc3545; 
+// $warning: #ffc107; 
+// $info: #17a2b8;
+// $light: #f8f9fa;
+// $dark: #343a40; 
+
+// $blue: #031c45 !default;
+$primary: #122C36 !default;
+$secondary: #4b6a77 !default; 
+$success: #005932 !default;
+// $danger: #dc3535 !default; 
+// $warning: #FFA500 !default;
+// $info: #099e6f !default; 
+$light: #EFFBFF !default; 
+$dark: #081318 !default; 
+
+// $body-bg: #122c3675;
+// Toggle global options
+
+// $enable-gradients: true;
+// $enable-shadows: true;
+
+// $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// Include functions first
+@import "bootstrap/scss/functions";
+
+$body-bg: #eaf2f5;
+$border-radius: .4rem;
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+// $bluevioletColor: #8a2be2 !default;
+// $saddlebrownColor: #8b4513 !default;
+// $midnightblueColor: #191970 !default;
+// $navyColor: #000080 !default;
+// $ceruleoColor: #009aff !default;
+// $darkmagentaColor: #8b008b !default;
+// $cadetblueColor: #5f9ea0 !default;
+// $magentaColor: #ff00ff !default;
+// $limegreenColor: #32cd32 !default;
+// $oliveColor: #808000 !default;
+// $goldColor: #ffd700 !default;
+// $orchidColor: #da70d6 !default;
+// $brownColor: #a52a2a !default;
+
+// Add a custom color to $theme-colors
+$custom-colors: (
+    "custom-color": #760871,
+    "teal-color": $teal,
+    "indigo-color": $indigo,
+    "pink-color": $pink,
+    "purple-color": $purple,
+    "orange-color": $orange,
+    // "blueviolet-color": $bluevioletColor,
+    // "saddlebrown-color": $saddlebrownColor,
+    // "midnightblue-color": $midnightblueColor,
+    // "navy-color": $navyColor,
+    // "ceruleo-color": $ceruleoColor,
+    // "darkmagenta-color": $darkmagentaColor,
+    // "cadetblue-color": $cadetblueColor,
+    // "magenta-color": $magentaColor,
+    // "limegreen-color": $limegreenColor,
+    // "olive-color": $oliveColor,
+    // "gold-color": $goldColor,
+    // "orchid-color": $orchidColor,
+    // "brown-color": $brownColor,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
+
+// $utilities: map-merge(
+//     $utilities,
+//     (
+//         "color":
+//             map-merge(
+//                 map-get($utilities, "color"),
+//                 (
+//                     values: map-merge(map-get(map-get($utilities, "color"), "values"), ($all-colors))
+//                 )
+//             ),
+//         "background-color":
+//             map-merge(
+//                 map-get($utilities, "background-color"),
+//                 (
+//                     values: map-merge(map-get(map-get($utilities, "background-color"), "values"), ($all-colors))
+//                 )
+//             )
+//     )
+// );
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";

@@ -1,0 +1,36 @@
+@import 'style-toggle-theme';
+
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts/" !default;
+@import "bootstrap-icons/font/bootstrap-icons";
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+// @import "@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "@fortawesome/fontawesome-free/scss/solid";
+// @import "@fortawesome/fontawesome-free/scss/brands";
+
+// .user {
+//     @extend %fa-icon;
+//     @extend .fas;
+
+//     &:before {
+//         content: fa-content($fa-var-user);
+//     }
+// }
+
+// .whatsapp {
+//     font-weight: bold;
+//     &:before {
+//         @extend %fa-icon;
+//         @extend .fab;
+//         font-size: 1.5rem;
+//         color: #25D366;
+//         content: fa-content($fa-var-whatsapp) "";
+//     }
+// }
+
+
+@import 'bootstrap-custom';
+@import 'variables';
+@import 'loader';
+@import 'landing-page-theme';
+@import 'style-news';
