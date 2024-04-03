@@ -341,27 +341,6 @@ a.logo-detail {
     }
 }
 
-[data-bs-theme="dark"] {
-    a.logo-detail {
-        color: $light;
-    }
-
-    .header {
-        background-color: $primary;
-    }
-
-    .section-one {
-        background-color: #212529;
-    }
-
-    .section-two {
-        background-color: #2b2e31;
-    }
-
-    .login-container {
-        background-color: #2b2e31;
-    }
-}
 
 .group-info {
     margin-bottom: 20px;
@@ -441,4 +420,34 @@ a.logo-detail {
     object-fit: cover;
     max-width: 100%;
     object-position: center top;
+}
+
+.text-important {
+    color: $primary;
+    font-weight: bold;
+}
+
+[data-bs-theme="dark"] {
+    a.logo-detail {
+        color: $light;
+    }
+
+    .header {
+        background-color: $primary;
+    }
+
+    .section-one {
+        background-color: #212529;
+    }
+
+    .section-two {
+        background-color: #2b2e31;
+    }
+
+    .login-container {
+        background-color: #2b2e31;
+    }
+    .text-important {
+        color: #00D9A5;
+    }
 }
