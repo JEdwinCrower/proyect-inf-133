@@ -4,23 +4,23 @@
 //     box-sizing: border-box;
 //     font-family: $font-body;
 // }
-
-html,
-body {
+html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    // display: flex;
-    // flex-direction: column;
+    display: flex;
+    flex-direction: column;
     transition: all 150ms ease;
     // overflow: hidden;
     // height: 100vh;
 }
 
-
-
 main {
+    flex: 1;
+    z-index: -1;
     div.content {
         padding: 10rem;
     }
@@ -70,6 +70,7 @@ a.logo-detail {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 0.5rem;
 
     .nav-top {
         display: flex;
@@ -327,19 +328,19 @@ a.logo-detail {
     }
 }
 
-.page-login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    min-height: calc(100vh - 300px);
+// .page-login {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 20px;
+//     //min-height: calc(100vh - 300px);
 
-    .login-container {
-        width: 350px;
-        background-color: $light;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-    }
-}
+//     .login-container {
+//         width: 350px;
+//         background-color: $light;
+//         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+//     }
+// }
 
 
 .group-info {
