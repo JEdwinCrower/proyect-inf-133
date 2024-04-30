@@ -2,21 +2,21 @@
 // $primary: #084D68;
 // $secondary: #6c757d;
 // $success: #28a745;
-// $danger: #dc3545; 
-// $warning: #ffc107; 
+// $danger: #dc3545;
+// $warning: #ffc107;
 // $info: #17a2b8;
 // $light: #f8f9fa;
-// $dark: #343a40; 
+// $dark: #343a40;
 
 // $blue: #031c45 !default;
 $primary: #122C36 !default;
-$secondary: #4b6a77 !default; 
+$secondary: #4b6a77 !default;
 $success: #005932 !default;
-// $danger: #dc3535 !default; 
+// $danger: #dc3535 !default;
 // $warning: #FFA500 !default;
-// $info: #099e6f !default; 
-$light: #EFFBFF !default; 
-$dark: #081318 !default; 
+// $info: #099e6f !default;
+$light: #EFFBFF !default;
+$dark: #081318 !default;
 
 // $body-bg: #122c3675;
 // Toggle global options
@@ -32,9 +32,12 @@ $dark: #081318 !default;
 $body-bg: #eaf2f5;
 $border-radius: .4rem;
 
+
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/variables-dark";
 
+$input-border-color: $secondary;
+$form-check-input-border: $secondary;
 // $bluevioletColor: #8a2be2 !default;
 // $saddlebrownColor: #8b4513 !default;
 // $midnightblueColor: #191970 !default;
@@ -138,3 +141,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Utilities
 @import "bootstrap/scss/utilities/api";
+
+
+.card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
