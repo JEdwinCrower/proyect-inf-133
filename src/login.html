@@ -20,7 +20,7 @@
     </div>
     <header class="header">
         <div class="container">
-                        <small class="text-important">Horario de atención: de lunes a viernes, de 08:00 a 20:00.</small>
+            <small class="text-important">Horario de atención: de lunes a viernes, de 08:00 a 20:00.</small>
             <div class="header-top">
                 <div class="header-top-info">
                     <div>
@@ -72,32 +72,37 @@
                     <a class="nav-item-link" href="doctores.html">Personal Medico</a>
                     <a class="nav-item-link" href="nosotros.html">Sobre Nosotros</a>
                     <a class="nav-item-link" href="contacto.html">Contacto</a>
-                    <a class="nav-item-btn btn btn-sm btn-success active" href="login.html">Log in</a>
+                    <a class="nav-item-btn btn btn-sm btn-success active" href="login.html">Iniciar sesión</a>
                 </div>
             </nav>
         </div>
     </header>
-    <main class="container page-login">
-        <div class="card login-container">
-            <div class="card-body">
-                <h2 class="card-text text-center">Inicio de Sesión</h2>
-                <form>
-                    <div class="mb-2">
-                        <label for="input-email" class="form-label">Correo electrónico:</label>
-                        <input type="email" class="form-control border-secondary"
-                            placeholder="Dirección de correo electrónico" id="input-email">
+    <div class="backdrop-nav"></div>
+    <main class="m-header container">
+        <div class="content">
+            <div class="d-grid d-lg-flex justify-content-lg-center gap-2">
+                <div class="card" style="min-width: 50%">
+                    <div class="card-body">
+                        <h2 class="card-text text-center">Inicio de Sesión</h2>
+                        <form>
+                            <div class="mb-2">
+                                <label for="input-email" class="form-label">Correo electrónico:</label>
+                                <input type="email" class="form-control border-secondary"
+                                    placeholder="Dirección de correo electrónico" id="input-email">
+                            </div>
+                            <div class="mb-2">
+                                <label for="input-password" class="form-label">Contraseña:</label>
+                                <input type="password" class="form-control border-secondary" placeholder="Contraseña"
+                                    id="input-password">
+                            </div>
+                            <div class="mb-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                        </form>
                     </div>
-                    <div class="mb-2">
-                        <label for="input-password" class="form-label">Contraseña:</label>
-                        <input type="password" class="form-control border-secondary" placeholder="Contraseña"
-                            id="input-password">
-                    </div>
-                    <div class="mb-2">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
-                </form>
+                </div>
             </div>
         </div>
     </main>

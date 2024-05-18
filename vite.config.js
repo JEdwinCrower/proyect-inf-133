@@ -2,8 +2,8 @@
 import { resolve } from 'path'
 export default {
   root: resolve(__dirname, 'src'),
-  // base: './',
-  base: "https://jedwincrower.github.io/proyect-inf-133/",
+  base: './',
+  // base: "https://jedwincrower.github.io/proyect-inf-133/",
   build: {
     outDir: '../dist',
     rollupOptions: {
